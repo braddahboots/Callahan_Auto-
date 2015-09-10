@@ -1,8 +1,8 @@
-import Automobile from '.auto_mobile';
+import Truck from './truck';
 
-export default class Semi extends Automobile {
+export default class Semi extends Truck {
 
-  constructor( model, color, engineCyl, seating, gasTankSize, transmission, gas ) {
-    super( model, color, 'Large', 2, trunkSize, 8, 2, sunRoof, 'Large', 'manual', gas );
+  constructor( model, color, engineCyl, seating, transmission, fueltype ) {
+    super( model, color, engineCyl, transmission, fueltype );
   }
 }

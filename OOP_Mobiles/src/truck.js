@@ -1,8 +1,10 @@
-import Automobile from '.auto_mobile';
+import Automobile from './auto_mobile';
 
 export default class Truck extends Automobile {
 
-  constructor( model, color, wheelSize, doors, trunkSize, engineCyl, seating, sunRoof, gasTankSize, transmission, gas ) {
-    super( model, color, 'Large', 2, trunkSize, 8, 2, sunRoof, 'Large', transmission, gas );
+  constructor (model, color, engineCyl, transmission, fueltype) {
+    super( model, color, 2, engineCyl, 2, transmission, fueltype); {
+
+    }
   }
 }

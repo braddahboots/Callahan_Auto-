@@ -1,8 +1,8 @@
-import Automobile from '.auto_mobile';
+import Truck from './truck';
 
-export default class SUV extends Automobile {
+export default class SUV extends Truck {
 
-  constructor( model, color, wheelSize, doors, trunkSize, engineCyl, seating, sunRoof, gasTankSize, transmission, gas ) {
-    super( model, color, 'Large', 4, 'Large', 8, 5, sunRoof, 'Large', transmission, gas );
+  constructor( model, color, engineCyl, transmission, fueltype ) {
+    super( model, color, engineCyl, transmission, fueltype );
   }
 }
